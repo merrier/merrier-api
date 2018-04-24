@@ -1,0 +1,15 @@
+{
+    "name": "api",
+    "script": "./app/start.js",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "out_file": "./logs/pm2-api-out.log",
+    "error_file": "./logs/pm2-api-err.log",
+    "pid_file": "pm2-api.pid",
+    "ignoreWatch": ["node_modules"],
+    "watch": "true",
+    "kill_timeout" : 3000,
+    "env": {
+        "NODE_ENV": "production",
+        "PORT": 3000
+    }
+}

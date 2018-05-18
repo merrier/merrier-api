@@ -5,7 +5,7 @@
 ## Demo
 
 ```
-curl http://api.merrier.wang/websites
+curl https://api.merrier.wang/websites
 ```
 
 ```json

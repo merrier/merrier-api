@@ -1,6 +1,5 @@
 var express = require('express');
 var setupMiddleware = require('../middleware');
-var middleware = setupMiddleware.middleware;
 var APP_CONF = require('../app.json');
 
 // routes

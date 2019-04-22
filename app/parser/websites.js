@@ -3,7 +3,7 @@ const rp = require("request-promise");
 
 module.exports = {
   parser: function(cb) {
-    const url = "http://wp.merrier.wang/网址导航";
+    const url = "https://wp.merrier.wang/网址导航";
 
     const options = {
       uri: encodeURI(url),
